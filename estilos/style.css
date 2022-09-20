@@ -37,6 +37,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
